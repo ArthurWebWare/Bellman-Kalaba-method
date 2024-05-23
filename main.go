@@ -49,7 +49,7 @@ func printGraph(graph [100][100]int, numVertices, numCols int) {
 		}
 		for j := 1; j < numCols; j++ {
 			if graph[i][j] == maxWeight {
-				fmt.Print(" + |")
+				fmt.Print(" +  |")
 			} else {
 				fmt.Printf("%4d|", graph[i][j])
 			}
